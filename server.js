@@ -20,7 +20,6 @@ app.use(express.static(process.cwd() + '/public'));
 if(process.env.NODE_ENV == 'production'){
   // Gotten using `heroku config | grep MONGODB_URI` command in Command Line
     mongoose.connect('mongodb://databaseuser:letmein1@ds163510.mlab.com:63510/heroku_jrnx55dr')
-  // mongoose.connect('mongodb://heroku_kbdv0v69:860jh71jd1iu5m5639gjr0gg9l@ds129028.mlab.com:29028/heroku_kbdv0v69');
 }
 else{
   mongoose.connect('mongodb://localhost/nytreact');
