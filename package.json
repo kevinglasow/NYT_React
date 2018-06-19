@@ -1,7 +1,7 @@
 {
   "name": "nyt-react",
   "version": "1.0.0",
-  "description": "A Node, Express, MongoDB, and ReactJS application where users can query, display, and save articles from the New York Times Article Search API.",
+  "description": "Application using Node, Express, MongoDB, and ReactJS to search and save articles from the NYT API",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomtom28/nyt-react.git"
+    "url": "git+https://github.com/kevinglasow/NYT_React"
   },
-  "author": "tomtom28",
+  "author": "Kevin Glasow",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomtom28/nyt-react/issues"
+    "url": "https://github.com/kevinglasow/NYT_React/issues"
   },
-  "homepage": "https://github.com/tomtom28/nyt-react#readme",
+  "homepage": "https://github.com/kevinglasow/NYT_React#readme",
   "dependencies": {
     "axios": "^0.15.3",
     "body-parser": "^1.15.2",
