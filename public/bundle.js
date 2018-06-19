@@ -22102,14 +22102,14 @@
 	            React.createElement(
 	              "i",
 	              null,
-	              "A React Rendition"
+	              "Scrape with React!"
 	            )
 	          )
 	        ),
 	        React.createElement(
 	          "h4",
 	          { className: "text-center" },
-	          "Search for and annotate articles of interest. Click on headlines to learn more."
+	          "Search for the top 5 articles on any topic. Click the headline to see full article."
 	        )
 	      ),
 	      React.createElement(Query, { _setSearchFeilds: this._setSearchFeilds }),

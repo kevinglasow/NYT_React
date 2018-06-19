@@ -67,7 +67,7 @@ var Main = React.createClass({
 
         <div className="page-header">
           <h1 className="text-center"><img style={ {width: "70%"} } src="img/nyt-header.svg" alt="The New York Times"/></h1>
-          <h2 className="text-center" style={ {marginTop: "-12px"} }><b><i>A React Rendition</i></b></h2>
+          <h2 className="text-center" style={ {marginTop: "-12px"} }><b><i>Scrape with React!</i></b></h2>
           <h4 className="text-center">Search for the top five articles on any theme.</h4>
         </div>
 
