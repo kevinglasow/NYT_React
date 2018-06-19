@@ -6,8 +6,6 @@ var router = express.Router();
 // Import the Article model
 var Article = require('../models/Article.js');
 
-
-
 // Main GET - This will display the ReactJS application.
 router.get("/", function(req, res) {
   res.sendFile(process.cwd() + "/public/index.html");
@@ -71,12 +69,10 @@ router.post("/api/delete/:articleMongoId", function(req, res) {
 
 });
 
-
 // CATCH ALL "*" - This redirect user to the "/" route for any unknown cases
 router.get("*", function(req, res) {
   res.redirect("/");
 });
-
 
 // ================================
 // Export Router to Server.js

@@ -6,8 +6,6 @@ var articleQuery = function(topic, beginYear, endYear){
 
   var authKey = "cceca49e5b924bb4b33357caf235a077";
 
-//  var authKey = "b9f91d369ff59547cd47b931d8cbc56b:0:74623931";
-
   var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + authKey + "&q=" +
                   topic + "&begin_date=" + beginYear + "0101" + "&end_date=" + endYear + "1231";
 
@@ -48,10 +46,6 @@ var articleQuery = function(topic, beginYear, endYear){
 
 }
 
-
-
-
-
 // API Post Request Function
 var apiSave = function(articleObj){
 
@@ -82,10 +76,6 @@ var apiSave = function(articleObj){
   
 }
 
-
-
-
-
 // API Post Request Function
 var apiGet = function(){
 
@@ -112,10 +102,6 @@ var apiGet = function(){
   
 }
 
-
-
-
-
 // API Post Request Function
 var apiDelete = function(deleteArticleId){
 
@@ -141,10 +127,6 @@ var apiDelete = function(deleteArticleId){
   });
 
 }
-
-
-
-
 
 // Export all helper functions
 module.exports = {

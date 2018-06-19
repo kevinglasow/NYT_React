@@ -25,11 +25,6 @@ var Query = React.createClass({
 
     // Set the parent to have the search terms
     this.props._setSearchFeilds(this.state.topic, this.state.startYear, this.state.endYear);
-
-    // Reset the search terms
-    // this.setState({topic: ""});
-    // this.setState({startYear: ""});
-    // this.setState({endYear: ""});
     
   },
 

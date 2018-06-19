@@ -43,14 +43,7 @@ var Main = React.createClass({
       this.setState({mongoResults: query.data});
     }.bind(this));
 
-    // console.log('API Results')
-    // console.log(this.state.apiResults)
-
-    // console.log('')
-    // console.log('Mongo Results')
-    // console.log(this.state.mongoResults)
   },
-
 
   // If the component changes (i.e. if a search is entered)...
   componentDidUpdate: function(prevProps, prevState) {
@@ -66,7 +59,6 @@ var Main = React.createClass({
 
   },
 
-
   // Here we render the function
   render: function() {
     return (
@@ -76,7 +68,7 @@ var Main = React.createClass({
         <div className="page-header">
           <h1 className="text-center"><img style={ {width: "70%"} } src="img/nyt-header.svg" alt="The New York Times"/></h1>
           <h2 className="text-center" style={ {marginTop: "-12px"} }><b><i>A React Rendition</i></b></h2>
-          <h4 className="text-center">Search for and annotate articles of interest. Click on headlines to learn more.</h4>
+          <h4 className="text-center">Search for the top five articles on any theme.</h4>
         </div>
 
         <Query _setSearchFeilds={this._setSearchFeilds} />
